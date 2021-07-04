@@ -1,4 +1,4 @@
-= systemd Timers =
+= Timers =
 
 == Basic Info ==
 - Timers are systemd units ending in .timer that control the running of services.
