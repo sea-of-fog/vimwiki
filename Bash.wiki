@@ -1,0 +1,9 @@
+= Bash Scripting =
+My notes for shell scripting and usage.
+
+== Basic terminal commands ==
+
+
+== Advanced commands ==
+* [[sed]]
+* [[awk]]

@@ -1,0 +1,16 @@
+= systemctl =
+
+== Definition ==
+systemctl - the command used for controlling the services running in the system
+
+== Basic Usage ==
+The systemctl command can be used to control services. They can be:
+- started/stopped
+    - sudo systemctl start _service_
+- enabled/disabled [enabled services are started on boot]
+    - sudo systemctl enable _service_
+- *to do both, use the --now flag*
+    - sudo systemctl enable --now _service_
+
+It can also be used to check service status.
+- systemctl status _service_
