@@ -1,31 +1,26 @@
 = systemd Timers =
 
-== Arch Wiki ==
-https://wiki.archlinux.org/title/Systemd/Timers
-
 == Basic Info ==
 - Timers are systemd units ending in .timer that control the running of services.
 - Timers cannot run commands/scripts, they must execute services.
-- It is best that the timer and the service are named similarly(_foo.timer_ and _foo.service_),
-    otherwise a _Unit=_ option should be included in [Timer]
+- It is best that the timer and the service are named similarly(_foo.timer_ and _foo.service_), otherwise a _Unit=_ option should be included in [Timer]
 
 == Syntax ==
 Every timer must have a [Timer] section, in which the monotonic/realtime timers are put.
 
 The [Install] section should look like:
     
-    _[Install]_
-    _WantedBy=timers.target_
+    [Install]
+    WantedBy=timers.target
 
 == Monotonic timers ==
 *Monotonic timers* run on a certain interval after an event.
 Monotonic timers can be set with OnEventSec, for example:
     * *_OnBootSec=5min_* will run the associated service 5 minutes after boot
-    * *_OnUnitActive=10sec_* will run the service 10 seconds after it is itself
-        activated, which means that it will be activated every 10 seconds
+    * *_OnUnitActive=10sec_* will run the service 10 seconds after it is itself activated, which means that it will be activated every 10 seconds
 
 == Realtime/wallock timers ==
-*Realtime timers* run on calendar events. Use with _OnCalendar_.
+*Realtime timers* run on calendar events. Set the _OnCalendar_ option.
 Available options:
     * *_OnCalendar=weekly_* runs the service at Mon 00:00 every week
         * *_yearly, monthly_* work similarly
@@ -36,4 +31,8 @@ TODO reading:https://serverfault.com/questions/776437/how-do-you-configure-multi
 == Alternatives ==
 One could attach an [Install] section to a service, for example:
 
-    TODO: add example of service run on boot.
+TODO: add example of service run on boot.
+
+== External resources ==
+=== Arch Wiki ===
+https://wiki.archlinux.org/title/Systemd/Timers
