@@ -1,0 +1,21 @@
+= Important FS dirs =
+
+| Path  | Name explained             | Function                                  |
+|-------|----------------------------|-------------------------------------------|
+| /     | root(*not superuser*)      | the base of the filesystem                |
+| /boot |                            | contains files loaded at boot             |
+| /bin  |                            | contains program binaries                 |
+| /sbin |                            | the same as /bin                          |
+| /tmp  | temporary                  | temporary files                           |
+| /etc  | etcetera                   | system configs                            |
+| /usr  | universal system resources | various resources like icons, themes etc. |
+| /var  | variable data              | system logs, other variable data          |
+| /sys  | system                     | basic system files                        |
+| /root |                            | the files of the root user                |
+| /opt  | optional                   | proprietary software which is optional    |
+| /dev  | devices                    | mountpoints for devices                   |
+| /home |                            | home directories for various users        |
+| /lib  | library                    | program libraries                         |
+
+== Permissions ==
+Only /home can be edited without administrator privilages!

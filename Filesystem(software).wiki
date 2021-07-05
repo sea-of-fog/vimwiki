@@ -1,7 +1,43 @@
-= Filesystem: user's pov =
+= The linux filesystem =
+
+== Intorduction ==
+The Linux FS comes from UNIX - a system for mainframe computers, which are HUGE. The functionality is implemented as such even on PCs and laptops.
+This entry is on the internal filesystem, i.e. the way the OS organizes files, *NOT the disk formatting*.
+
+== What does the FS contain? ==
+*ONLY FILES!* 
+=== Obfuscation ===
+In the FS everything is a file - directories, devices etc. 
+This is called _obfuscation_.
+Directories(=folders) are also files - they contain addresses to other files.
+
+The name "folder" comes from CS101 as a metaphor(files in a cabinet),
+and when GUIs came along directories got folder icons.
+
+== Important dirs ==
+See [[Important dirs table]] 
+
+== Managing the filesystem ==
+See [[FS management]]
+
+== Mounting ==
+Assigning a storage device to a place in the filesystem.
+== Case ==
+The Linux FS is Case-sensitive, unlike Windows. Watch out!
+== hidden files ==
+file/dirnames beggining with "." are hidden. Used e.g. for configs.
+.bash_history - allows history access
+== samba ==
+a program to connect with Win machines
+== touch command ==
+[[FS management]]
+== flag files ==
+wtf????
+== permissions ==
+[[Permissions]]
+
 
 == Reading TODO ==
-https://www.youtube.com/watch?v=HIXzJ3Rz9po
 https://www.youtube.com/watch?v=roES8iAaJEM
 https://www.youtube.com/watch?v=BNL3qBN9pP0
 https://www.youtube.com/watch?v=HbgzrKJvDRw

@@ -6,6 +6,7 @@
 === Linux ===
 * [[The Linux System]]
 * [[My system]]
+* [[Git]]
 === Programming ===
 * [[Bash]]
 

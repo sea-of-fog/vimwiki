@@ -14,6 +14,8 @@ See [[Filesystem(software)]] for fs details. Every navigatory command can use ei
     * *_mkdir -p /path_* creates intermediate dirs as neede
         * Example: if there is no _~/Mar_, *_mkdir ~/Mar/Głow_* will return an error, but *_mkdir -p ~/Mar/Głow_* will create _~/Mar_ and _~/Mar/Głow_
 * *_touch /path/to/new/file_* creates a file
+    * if used on an existing file, it changes the modification date
+    * can be used to create flag files
 * *_cp /old/path /new/path_* copies a file
     * *_cp -r /old/dir /new/dir_* copies directories
 * *_rm /file/1 /file/2 ..._* removes files
