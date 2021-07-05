@@ -3,7 +3,7 @@
 == Basic Info ==
 - Timers are systemd units ending in .timer that control the running of services.
 - Timers cannot run commands/scripts, they must execute services.
-- It is best that the timer and the service are named similarly(_foo.timer_ and _foo.service_), otherwise a _Unit=_ option should be included in [Timer]
+- It is best that the timer and the service are named similarly(_foo.timer_ and _foo.service_)
 
 == Syntax ==
 Every timer must have a [Timer] section, in which the monotonic/realtime timers are put.
@@ -23,10 +23,14 @@ Monotonic timers can be set with OnEventSec, for example:
 *Realtime timers* run on calendar events. Set the _OnCalendar_ option.
 Available options:
     * *_OnCalendar=weekly_* runs the service at Mon 00:00 every week
-        * *_yearly, monthly_* work similarly
+    * *_yearly, monthly_* work similarly
+
+== Options ==
+1. _Unit=_ : name the unit to be controlled by the timer
+2. _Persistent=_ : boolean, if set and the elapsion time is missed the unit will be run asap
 
 == Running multiple services ==
-TODO reading:https://serverfault.com/questions/776437/how-do-you-configure-multiple-systemd-services-to-use-one-timer
+TODO reading: https://serverfault.com/questions/776437/how-do-you-configure-multiple-systemd-services-to-use-one-timer
 
 == Alternatives ==
 One could attach an [Install] section to a service, for example:
@@ -36,3 +40,7 @@ TODO: add example of service run on boot.
 == External resources ==
 === Arch Wiki ===
 https://wiki.archlinux.org/title/Systemd/Timers
+=== Stack entry on multiple timers ===
+https://serverfault.com/questions/776437/how-do-you-configure-multiple-systemd-services-to-use-one-timer
+=== Manual ===
+man systemd.timer

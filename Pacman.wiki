@@ -1,0 +1,15 @@
+= Pacman =
+
+== List of flags ==
+
+| flag | explanation                   |
+|------|-------------------------------|
+| -S   | synchronize                   |
+| -Sy  |                               |
+| -Syu | system-wide update            |
+| -R   |                               |
+| -Rn  |                               |
+| -Rns |                               |
+| -Q   |                               |
+| -U   | install package on the system |
+| -V   | display version               |
