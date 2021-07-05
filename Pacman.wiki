@@ -1,15 +1,6 @@
 = Pacman =
+Pacman is the default package manager for Arch Linux.
 
 == List of flags ==
 
-| flag | explanation                   |
-|------|-------------------------------|
-| -S   | synchronize                   |
-| -Sy  |                               |
-| -Syu | system-wide update            |
-| -R   |                               |
-| -Rn  |                               |
-| -Rns |                               |
-| -Q   |                               |
-| -U   | install package on the system |
-| -V   | display version               |
+TODO: add a table of pacman flags
