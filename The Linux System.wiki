@@ -2,12 +2,9 @@
 
 == systemd ==
 * [[systemctl]]
-* [[journalctl]]
 * [[Units]]
 * [[Timers]]
 * [[Services]]
 
 == Arch Linux ==
 * [[Pacman]]
-* [[AUR]]
-* [[Arch build system]]

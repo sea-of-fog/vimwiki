@@ -1,3 +1,0 @@
-= VimL/VimScript =
-
-TODO learn something!

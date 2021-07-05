@@ -1,31 +1,13 @@
 = My Notes =
 
 == Matematyka ==
-=== Notatki z UWr ===
-* [[Algebra Liniowa]]
-* [[Algebra Abstrakcyjna]]
-* [[Analiza I & II]]
-* [[Analiza Wielowymiarowa]]
-* [[Teoria kategorii]]
-* [[Topologia]]
-=== Aspekty meta === 
-* [[LaTeX]]
-* [[Filozofia matematyki]]
 
 == Computing ==
 === Linux ===
 * [[The Linux System]]
-* [[My system]]
-* [[Vim]]
 === Programming ===
 * [[Bash]]
-* [[Python]]
-* [[VimL]]
 
 == Stoicyzm ==
-=== Teksty ===
-* [[Rozmyślania]]
-=== Ćwiczenia & praktyka ===
 
 == Ekonomia ==
-* [[Notatki z FF]]
