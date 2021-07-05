@@ -1,19 +1,23 @@
 = Bash Scripting =
-My notes for shell scripting and usage.
+My notes for shell scripting and usage. Includes terminal commands.
+*Commands take regexes! You can run "rm OneDrive(asterisk)" and it will remove OneDrive1, OneDrive2 and OneDrive3.*
+GNU coreutils: https://pl.wikipedia.org/wiki/GNU_Coreutils
 
 == Intro ==
 Bash is a shell. What is a shell?
+I should know that.
 
 == Commands ==
 * [[FS management]]
-* [[chmod]]
-* [[chgrp]]
-* [[chown]]
+* [[Changing permissions]]
+* [[Bash io]]
 
 == Syntax ==
-* [[Bash flow control]]
 * [[Bash looping]]
-* [[Bash bracket execution]]
+* [[Bash flow control]]
+* [[Bash comparators]]
+* [[Bash brackets]]
+* [[Bash regexes]]
 
 == Sources ==
 1. https://wiki.archlinux.org/title/Bash

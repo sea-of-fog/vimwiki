@@ -16,7 +16,7 @@ Permissions are listed in three blocks:
     2. For the group.
     3. For others.
 Each block tells whether the item can be read("r"), written("w") or executed("x").
-Use [[chmod]] to change permissions.
+Use [[Changing permissions]] to change permissions.
 
 == Owner & Group Owner ==
 A file can be assigned to a particular user and/or group. The owner need not be a member of said group.

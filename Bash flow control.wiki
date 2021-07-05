@@ -1,0 +1,31 @@
+= Flow control in Bash =
+
+Conditions are written with [[Bash comparators]] in [[Bash brackets]].
+
+== Basic if ==
+`if` _condition_
+`then`
+    _code 1_
+`fi`
+
+== If with else ==
+`if` _condition_
+`then`
+    _code 1_
+`else`
+    _code 2_
+`fi`
+
+== If, elif and else ==
+`if` _condition 1_
+`then`
+    _code 1_
+`elif` _condition 2_
+`then`
+    _code 2_
+`elif` _condition 3_
+`then`
+    _code 3_
+`else`
+    _code 4_
+`fi`
