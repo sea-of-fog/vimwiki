@@ -1,9 +1,13 @@
 = The Linux System =
 
 == systemd ==
+* [[systemctl]]
+* [[journalctl]]
 * [[Units]]
 * [[Timers]]
-* [[systemctl]]
+* [[Services]]
 
 == Arch Linux ==
 * [[Pacman]]
+* [[AUR]]
+* [[Arch build system]]
