@@ -37,10 +37,7 @@ One could attach an [Install] section to a service, for example:
 
 TODO: add example of service run on boot.
 
-== External resources ==
-=== Arch Wiki ===
-https://wiki.archlinux.org/title/Systemd/Timers
-=== Stack entry on multiple timers ===
-https://serverfault.com/questions/776437/how-do-you-configure-multiple-systemd-services-to-use-one-timer
-=== Manual ===
-man systemd.timer
+== Sources ==
+1. https://wiki.archlinux.org/title/Systemd/Timers
+2. https://serverfault.com/questions/776437/how-do-you-configure-multiple-systemd-services-to-use-one-timer
+3. manual: man systemd.timer

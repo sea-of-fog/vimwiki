@@ -1,6 +1,6 @@
 = Filesystem Management =
 
-See [[Filesystem]] for fs details. Every navigatory command can use either a _relative path_ or an _absolute path_.
+See [[Filesystem(software)]] for fs details. Every navigatory command can use either a _relative path_ or an _absolute path_.
 
 == Navigation ==
 * *_pwd_* stands for "print working directory"
@@ -9,8 +9,20 @@ See [[Filesystem]] for fs details. Every navigatory command can use either a _re
     * *_cd_* goes to the user $HOME directory
 * *_pushd /path_*, *_popd_* are used to manage the terminal directory stack
 
-== Creating files and dirs ==
+== Managing files ==
 * *_mkdir /path/to/new/dir_* creates a directory
     * *_mkdir -p /path_* creates intermediate dirs as neede
         * Example: if there is no _~/Mar_, *_mkdir ~/Mar/Głow_* will return an error, but *_mkdir -p ~/Mar/Głow_* will create _~/Mar_ and _~/Mar/Głow_
 * *_touch /path/to/new/file_* creates a file
+* *_cp /old/path /new/path_* copies a file
+    * *_cp -r /old/dir /new/dir_* copies directories
+* *_rm /file/1 /file/2 ..._* removes files
+    * *_rm -r /path_* recursively removes everything under _/path_
+
+== Viewing ==
+* *_ls_* lists files is _$PWD_.  Some options:
+    * *_ls -a_* lists all files(including dotfiles, which are normally excluded)
+    * *_[[ls -l]]_*
+
+== Sources ==
+https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management

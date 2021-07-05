@@ -1,4 +1,4 @@
 = My system =
 
 == Configuration ==
-[[Terminal]]
+* [[Terminal]]

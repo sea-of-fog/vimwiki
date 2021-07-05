@@ -1,0 +1,26 @@
+= ls -l =
+
+Output of this command usually looks like:
+*-rw-r--r-- 1 krzysiu krzysiu  586 Jul  5 00:20  song.txt*
+
+Let's split it:
+
+Type indicator - permissions - hardlinks - owner - grp owner - size - last modification date - name
+
+== Type indicator ==
+"-" for files, "d" for dirs
+
+== Permissions ==
+Permissions are listed in three blocks:
+    1. For the owner.
+    2. For the group.
+    3. For others.
+Each block tells whether the item can be read("r"), written("w") or executed("x").
+Use [[chmod]] to change permissions.
+
+== Owner & Group Owner ==
+A file can be assigned to a particular user and/or group. The owner need not be a member of said group.
+Use [[chown]] to change (group) ownership or [[chgrp]] for just droup ownership only.
+
+== Sources ==
+https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management
