@@ -1,0 +1,4 @@
+= Terminal =
+Emulator: terminator
+Theme: gruvbox (via terminator-themes)
+Powerline: powerline-shell(with custom gruvbox theme)

@@ -5,6 +5,7 @@
 == Computing ==
 === Linux ===
 * [[The Linux System]]
+* [[My system]]
 === Programming ===
 * [[Bash]]
 
