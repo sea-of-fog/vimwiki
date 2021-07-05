@@ -8,6 +8,7 @@
 
 == General ==
 * [[Filesystem(software)]]
+* [[Permissions]]
 
 == Arch Linux ==
 * [[Pacman]]
