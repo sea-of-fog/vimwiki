@@ -1,0 +1,7 @@
+== Philosophy at Computer ==
+
+== Basic ideas ==
+- Power usage
+- Sharpen your tools
+- Automation
+- UNIX philosophy

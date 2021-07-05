@@ -3,6 +3,7 @@
 == Matematyka ==
 
 == Computing ==
+* [[Computing philosophy]]
 === Linux ===
 * [[The Linux System]]
 * [[My system]]
