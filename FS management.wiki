@@ -1,0 +1,16 @@
+= Filesystem Management =
+
+See [[Filesystem]] for fs details. Every navigatory command can use either a _relative path_ or an _absolute path_.
+
+== Navigation ==
+* *_pwd_* stands for "print working directory"
+* *_cd_* stands for "change directory", takes a path
+    * *_cd .._* moves up a dir in the FS
+    * *_cd_* goes to the user $HOME directory
+* *_pushd /path_*, *_popd_* are used to manage the terminal directory stack
+
+== Creating files and dirs ==
+* *_mkdir /path/to/new/dir_* creates a directory
+    * *_mkdir -p /path_* creates intermediate dirs as neede
+        * Example: if there is no _~/Mar_, *_mkdir ~/Mar/Głow_* will return an error, but *_mkdir -p ~/Mar/Głow_* will create _~/Mar_ and _~/Mar/Głow_
+* *_touch /path/to/new/file_* creates a file
