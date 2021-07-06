@@ -1,0 +1,22 @@
+= Bash input/output =
+
+== Input ==
+To take input use *_read_*:
+_*read*_ _var1 var2 var3 ..._
+
+Different options with *_read_*:
+____________________________________________________________________
+| Syntax           | Usage                                         |
+|------------------|-----------------------------------------------|
+| read -p text var | enter on the same prompt, with text displayed |
+| read -s var      | silent input, like password                   |
+| read -a array    | read to array                                 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+== Output ==
+To print to stdout use _*echo*_:
+_*echo*_ _text_
+Remeber that bash supports "fstrings" natively.
+Options with *_echo_*:
+
+== Arguments ==

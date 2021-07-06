@@ -1,0 +1,21 @@
+= Bash basic syntax =
+
+== Interpretation ==
+Bash scripts are not compiled. Instead they are interpreted as if run by a user.
+
+== Shebang ==
+As every interpreted script, a Bash script should start with a shebang. 
+`#! /path/to/bash/interpreter`
+The path can be found by running `which bash`.
+
+== Comments ==
+Bash comments begin with a `#`. End-of-line comments are supported, so:
+`echo $variable     # comment here`
+is a valid way to comment.
+
+== Variables ==
+Declare variables with:
+`var=value`
+No type specification is required.
+The variable can be accessed with `$var`.
+If something longer/with numbers/with [] has to be accessed, one can use `${name}`.

@@ -1,0 +1,31 @@
+= Bash arrays =
+There are two kinds of arrays: associative and indexed.
+A large amount of functionality overlaps.
+
+== Indexed arrays ==
+Standard type of array, similar to Python lists.
+=== Declaring indexed arrays ===
+There are two ways to do this.
+Command:
+`declare -a my_array`
+Constructor:
+`my_array = (item1 item2 item3 ...)`
+== Accessing array elements ==
+The array is indexed from 0.
+The element with index _id_ can be accessed with: `${my_array[id]}`.
+
+== Associative arrays ==
+The bash equivalent of a Python dictionary.
+=== Declaring associative arrays ===
+There is only one way, with a command:
+`declare -A my_dict`, optionally `declare -A my_dict=([key1]=val1 [key2]=val2 ...)`.
+== Accessing array elements ==
+The value with key _yek_ is `${my_dict[yek]}`.
+
+== Advanced operations ==
+Use `@`, `#` and `!` for array expansion, # of elements and access to keys respectively.
+See [[Bash array operators]] and [[Bash looping]] for details.
+
+== Sources ==
+1. https://linuxconfig.org/how-to-use-arrays-in-bash-script
+2. https://linuxhint.com/associative_array_bash/

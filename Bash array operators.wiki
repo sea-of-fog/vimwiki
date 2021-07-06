@@ -1,0 +1,25 @@
+= Bash array operators =
+
+== Concatenation ==
+Both kinds of arrays can be concatenated with `+` and `+=`.
+This allows one to update "on the fly":
+`my_array += (new_item1 new_item2 ...)`, `my_dict += ([key1]=val1 [key2]=val2 ...)` 
+In case of ass. arrays, if there is any key overlap, new values are assigned.
+
+== Deletion ==
+One can delete items with `unset`:
+`unset arr[1]`, `unset dict[key]`
+After unsetting on an indexed array, the other elements are renumbered.
+This command can also be used to delete whole arrays:
+`unset arr`, `unset dict`.
+
+== Expansion, # of elements ==
+The `@`, `#` and `!` operators are very important.
+`${array[@]}` expands the array into a string and `${dict[@]}` expands the list of values.
+This allows one to iterate, see [[Bash looping]].
+`${!dict[@]}` expands to the list of keys.
+For both kinds of arrays, `${#array[@]}` is the number of items(or key-value pairs).
+
+== Sources ==
+1. https://linuxconfig.org/how-to-use-arrays-in-bash-script
+2. https://linuxhint.com/associative_array_bash/
