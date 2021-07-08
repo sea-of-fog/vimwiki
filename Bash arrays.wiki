@@ -27,5 +27,5 @@ Use `@`, `#` and `!` for array expansion, # of elements and access to keys respe
 See [[Bash array operators]] and [[Bash looping]] for details.
 
 == Sources ==
-1. https://linuxconfig.org/how-to-use-arrays-in-bash-script
-2. https://linuxhint.com/associative_array_bash/
+1. Linuxconfig: https://linuxconfig.org/how-to-use-arrays-in-bash-script
+2. Linuxhint: https://linuxhint.com/associative_array_bash/

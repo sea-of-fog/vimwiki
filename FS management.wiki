@@ -27,4 +27,4 @@ See [[Filesystem(software)]] for fs details. Every navigatory command can use ei
     * *_[[ls -l]]_*
 
 == Sources ==
-1. https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management
+1. DigitalOcean https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management

@@ -20,3 +20,7 @@ Remeber that bash supports "fstrings" natively.
 Options with *_echo_*:
 
 == Arguments ==
+
+== Sources ==
+1. IO tutorial: https://www.youtube.com/watch?v=AcSkkNAsGCY
+2. Arguments tutorial: https://www.youtube.com/watch?v=BjBBfmDRakg
