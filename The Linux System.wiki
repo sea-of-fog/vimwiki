@@ -9,6 +9,10 @@
 == General ==
 * [[Filesystem(software)]]
 * [[Permissions]]
+* [[IO streams]]
+
+== Utils ==
+* [[sed]]
 
 == Arch Linux ==
 * [[Pacman]]

@@ -1,5 +1,17 @@
 = Permissions =
 
+In Linux, every file has three kinds of permissions:
+1. read
+2. write
+3. execute
+
+These permissions can be specified independently for:
+1. the file owner
+2. the groups which owns the file
+3. everyone else
+
+Of course, the superuser is permitted to do anything.
+
 == Reading ==
 TODO: Joe Collins, permissions
 1. https://www.youtube.com/watch?v=HIXzJ3Rz9po

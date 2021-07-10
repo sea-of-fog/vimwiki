@@ -5,6 +5,7 @@ My notes for shell scripting and usage. Includes terminal commands.
 == Intro ==
 Bash is a shell. What is a shell?
 It's a program that exposes the os functionality, hence the name.
+A shell script is a program to be *interpreted* as if run from a CLI. 
 
 == Commands ==
 * [[Bash io]]
@@ -23,5 +24,6 @@ It's a program that exposes the os functionality, hence the name.
 
 == Sources ==
 1. ArchWiki: https://wiki.archlinux.org/title/Bash
-2. Indian tutorial: https://www.youtube.com/watch?v=cQepf9fY6cE&list=PLS1QulWo1RIYmaxcEqw5JhK3b-6rgdWO_
-3. GNU coreutils: https://pl.wikipedia.org/wiki/GNU_Coreutils
+2. Advanced Bash scripting: https://tldp.org/LDP/abs/html/index.html
+3. Indian tutorial: https://www.youtube.com/watch?v=cQepf9fY6cE&list=PLS1QulWo1RIYmaxcEqw5JhK3b-6rgdWO_
+4. GNU coreutils: https://pl.wikipedia.org/wiki/GNU_Coreutils

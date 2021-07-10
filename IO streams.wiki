@@ -1,0 +1,4 @@
+= Standard streams =
+
+== Sources ==
+1. https://en.wikipedia.org/wiki/Standard_streams

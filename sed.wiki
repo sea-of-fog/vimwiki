@@ -1,0 +1,11 @@
+= sed = 
+
+== Intro ==
+`sed` is a command-line utility for performing basic manipulation on a text stream(e.g. file or in a pipeline).
+Use it with:
+`sed [options] [script] [input]`
+By default, `sed` outputs to stdout.
+
+== Sources ==
+1. https://www.youtube.com/watch?v=EACe7aiGczw
+2. https://www.gnu.org/software/sed/manual/sed.html 

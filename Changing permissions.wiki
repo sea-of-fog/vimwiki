@@ -1,8 +1,11 @@
 = Changing permissions =
 
 == chmod ==
+Syntax
 
 == chown ==
 
 == chgrp ==
 
+== Sources ==
+1. https://linuxize.com/post/chmod-command-in-linux/
