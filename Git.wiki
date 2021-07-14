@@ -12,12 +12,15 @@ This is the index page for Git/Github notes.
 [[Git files]]
 
 == Verbs ==
+TODO: turn into a table
 [[git config]]
 [[git status]]
+[[git diff]]
 [[git add]]
 [[git rm]]
 [[git commit]]
 [[git mv]]
+[[.gitignore]]
 
 == Sources ==
 1. https://git-scm.com/book/en/v2 (available locally)

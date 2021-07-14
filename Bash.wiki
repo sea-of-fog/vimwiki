@@ -20,7 +20,7 @@ A shell script is a program to be *interpreted* as if run from a CLI.
     * [[Bash brackets]]
     * [[Bash comparators]]
 * [[Bash looping]]
-* [[Bash regexes]]
+* [[globbing]]
 
 == Sources ==
 1. Advanced Bash scripting: https://tldp.org/LDP/abs/html/index.html
