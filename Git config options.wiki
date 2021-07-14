@@ -1,0 +1,11 @@
+= Git config options =
+The options form a dictionary. A subset of them is listed here:
+`[user]`
+    `name` - the full name
+    `email`
+`[core]`
+    `editor` - the program to be used when writing commit msgs etc.
+`[init]` 
+    `defaultbranch` - the name of the default branch, _master_ by default
+`[alias]`
+    here you cann add various aliases

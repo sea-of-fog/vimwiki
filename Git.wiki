@@ -20,7 +20,7 @@ TODO: turn into a table
 [[git rm]]
 [[git commit]]
 [[git mv]]
-[[.gitignore]]
+[[the .gitignore file]]
 
 == Sources ==
 1. https://git-scm.com/book/en/v2 (available locally)

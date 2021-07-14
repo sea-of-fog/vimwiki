@@ -1,0 +1,13 @@
+= git help =
+Getting help is very easy in git.
+
+Offline resources:
+| command             | commentary       |
+|---------------------|------------------|
+| `git help <verb>`   |                  |
+| `git <verb> --help` | git manual entry |
+| `man git-<verb>`    |                  |
+| `git <verb> -h`     | help in terminal |
+
+<verb> is sth like config, add, etc.
+

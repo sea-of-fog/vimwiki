@@ -1,0 +1,20 @@
+= Git configuration =
+
+The basic CLI tool for managing git configuration is `git config`.
+There are three scopes for Git configuration, stored in three different places and accessed with three different `git config` options:
+
+| Scope      | Path                                 | Option                | Remarks             |
+|------------|--------------------------------------|-----------------------|---------------------|
+| systemwide | /etc/gitconfig                       | `git config --system` |                     |
+| user       | ~/.gitconfig or ~/.config/git/config | `git config --global` | Remember to specify |
+| repository | repo/.git/config                     | `git config --local`  | The default option  |
+
+*Each of these levels overrides the previous one.*
+
+== Syntax ==
+To set options: `git config --options option_group.option value`.
+To view current config: `git config --list`. Append `--show-origin` to see where specific are taken from.
+To see the value of a specific option: `git config opt_group.option`. To see origin, type `git config --show-origin group.option`.
+
+== Available options ==
+[[Git config options]]

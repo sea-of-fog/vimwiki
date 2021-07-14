@@ -1,0 +1,19 @@
+= git status = 
+
+The main command for seeing the current state of the files is `git status`.
+
+== Double M ==
+If a file is modified after being staged, `git status` will display it as *both* staged and unstaged.
+
+== Shortened ==
+`git status -s` or `git status --short` displays a shortened status list. Symbols appearing next to filenames:
+
+| Symbol | Meaning                            | 
+|--------|------------------------------------|
+| "M "   | modified, staged                   |
+| " M"   | modified, unstaged                 |
+| MM     | modified, staged and then modified |
+| A      | new file, staged                   |
+| ??     | untracked                          |
+
+Symobls appear in two columns. The left column represents the staging area while the right column represents the working tree.

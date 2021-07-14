@@ -1,0 +1,19 @@
+= What is Git? =
+
+Git is a Version Control system - a piece of software allowing the user to track changes to files, roll versions back, etc.
+Although most often used for software development, Git can version-control any kind of file.
+
+== Types of VCS ==
+There are a few types of VCS:
+- local: one could keep timestamped directories with each chagne. This is very error-prone. A more advanced option is to use a DB for all the changes to the tracked files. This is what RCS(https://www.gnu.org/software/rcs/) does.
+- centralised: this kind of vcs is built for collaboration. Versioned files are kept on a shared server, from which everyone gains access to them. This is better than LVCS, but prone to the server going down and/or the files on the server becoming corrupted.
+- distributed: in a DVCS, every *client*(repo user) *mirrors* the repository with version history. 
+Git is a DVCS.
+== History ==
+The Linux kernel started development being simply passed around. However, in 2002 the developers started using a proprietary DVCS called BitKeeper. In 2005 permission to use BitKeeper free-of-charge(it was proprietary) was revoked, and Linus Torvalds started developing a new DVCS.
+== How does Git work? ==
+Many vcs use _delta-based control_ - they store the differences made in a repository. However, *Git does not do that*. Instead, it stores snapshots of the repository.
+== Network ==
+Git works locally, unlike a CVCS. (Almost) everything is done locally, ofc not including uploading/downloading data.
+== Integrity ==
+Git stores everything in SHA-1 hashes. It stores files by their hashes and does almost everything with them. Also - git only adds data.

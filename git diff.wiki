@@ -1,0 +1,3 @@
+= git diff =
+
+The `git diff`, unlike [[git status]] shows the exact changes to a file in the repo.

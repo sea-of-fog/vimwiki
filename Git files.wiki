@@ -1,0 +1,15 @@
+= Git files =
+
+What is present in a local repo directory is called a _checkout_ or a _working copy_.
+Each file in the directory can be either *tracked* or *untracked*. Untracked files are ignored in the Git DB and any changes to them are not, well, tracked.
+Tracked files can be unmodified, modified or staged. For explanation see [[The three states]].
+To change the status use:
+
+| Description              | Change                    | Command                           |
+|--------------------------|---------------------------|-----------------------------------|
+| Start tracking a file    | untracked ---> staged     | [[git add#Tracking]]              |
+| Stop tracking a file     | unmodified --> untracked  | [[git rm]]                        |
+| Introduce changes        | unmodified --> modified   | whatever changes a file           |
+| Stage a gile             | modified ----> staged     | [[git add#Staging]]               |
+| Commit(remember changes) | staged ------> unmodified | [[git commit]]                    |
+| Stage + commit           | modified ----> unmodified | [[git commit#Skipping the index]] |

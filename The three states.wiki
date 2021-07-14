@@ -1,0 +1,20 @@
+= Git: the three states =
+See also [[Git files]]. This note concerns only _tracked files_.
+
+- unmodified: consistent with git data
+- modified: file has been changed, but Git "does not see" the change 
+- staged: change marked to be committed to the DB
+- committed: change remembered in the Git DB, this is the same as unmodified
+
+== The three areas ==
+Thus, the repo has three main parts:
+- the working tree: where the files are
+- the staging area(technically index): file listing what should be included in the next commit 
+- the .git directory: where Git stores the magic(DB, metadata) 
+
+== The tripartite workflow ==
+Generally, a Git workflow can be described as:
+1. modifying(rewriting, adding, deleting etc.) files the _working tree_
+2. staging the changes that need be committed
+3. committing
+The staging area can be bypassed. See [[git commit#Skipping the index]].

@@ -1,0 +1,12 @@
+= Getting a repo =
+
+There are two ways to get a git repo.
+
+== Cloning a repo ==
+Type `git clone repo_url`. A directory for the repository is created, its name is by default the repo name. A different name needs to be passed: `git clone repo_url repo_local_dir`.
+
+== Creating a repo ==
+A repository can be created from an existing directory. To do this:
+1. cd into the directory.
+2. type `git init`.
+3. add files and commit.

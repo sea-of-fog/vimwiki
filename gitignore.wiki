@@ -1,0 +1,11 @@
+= .gitignore =
+
+Git has the option to completely ignore some files in its directory - that is, not even show them as unstaged.
+The ignored files are specified in the `repo/.gitignore` file.
+
+Rules for parsing `.gitignore`:
+1. lines starting with `#` or blank are ignored
+2. [[globbing]] is expanded
+3. patterns starting with `/` are not expanded
+4. patterns ending with `/`
+5. `!` negates previous rules

@@ -1,0 +1,12 @@
+= git commit =
+
+== Commit message ==
+Every commit must include a message, which cannot be empty.
+By default, core.editor will be opened to enter the commit message.
+To specify on the command line, type:
+`git commit -m "the commit message"`
+
+== Skipping the index ==
+The _staging area_ can be skipped by using:
+`git commit -a`
+This command stages and commits all modified files.

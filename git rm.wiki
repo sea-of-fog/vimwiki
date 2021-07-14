@@ -1,0 +1,5 @@
+= git rm =
+
+This command marks a file as *untracked*.
+Type:
+`git rm path/to/file`

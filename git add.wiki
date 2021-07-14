@@ -1,0 +1,14 @@
+= git add =
+
+The `git add` command can be used for many purposes.
+DO NOT think of this command as "add file to project", rather "add to the next commit".
+
+== Tracking ==
+For explanation of tracked/untracked files see [[Git files]].
+To start tracking a file:
+`git add /path/to/file`
+
+== Staging ==
+See [[Git files]] for explantion.
+To stage a file:
+`git add /path/to/file`
