@@ -3,7 +3,7 @@
 == Basic Info ==
 - Timers are systemd units ending in .timer that control the running of services.
 - Timers cannot run commands/scripts, they must execute services.
-- It is best that the timer and the service are named similarly(_foo.timer_ and _foo.service_)
+- It is best that the timer and the service are named the same(_foo.timer_ and _foo.service_)
 
 == Syntax ==
 Every timer must have a [Timer] section, in which the monotonic/realtime timers are put.
@@ -27,13 +27,14 @@ Available options:
 
 == Options ==
 1. _Unit=_ : name the unit to be controlled by the timer
-2. _Persistent=_ : boolean, if set and the elapsion time is missed the unit will be run asap
+	- if not specified, _foo.timer_ will try to run _foo.service_
+3. _Persistent=_ : boolean, if set and the elapsion time is missed the unit will be run asap
 
 == Running multiple services ==
 TODO reading: https://serverfault.com/questions/776437/how-do-you-configure-multiple-systemd-services-to-use-one-timer
 
 == Alternatives ==
-One could attach an [Install] section to a service, for example:
+One could attach an [Install] section to a service, see [[Services]].
 
 TODO: add example of service run on boot.
 

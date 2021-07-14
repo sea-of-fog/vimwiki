@@ -1,6 +1,23 @@
 = Git =
+This is the index page for Git/Github notes.
 
-== Config ==
+== Help ==
+[[git help]]
+
+== Theory ==
+[[What is Git?]]
+[[The three states]]
+[[Git config options]]
+[[Getting a repo]]
+[[Git files]]
+
+== Verbs ==
+[[git config]]
+[[git status]]
+[[git add]]
+[[git rm]]
+[[git commit]]
+[[git mv]]
 
 == Sources ==
 1. https://git-scm.com/book/en/v2 (available locally)

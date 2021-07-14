@@ -18,4 +18,4 @@ Declare variables with:
 `var=value`
 No type specification is required.
 The variable can be accessed with `$var`.
-If something longer/with numbers/with [] has to be accessed, one can use `${name}`.
+If something longer/with numbers/with "[]" has to be accessed, one can use `${name}`.
