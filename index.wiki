@@ -1,17 +1,11 @@
 = My Notes =
 
-== Matematyka ==
-
-== Computing ==
+== Computing theory ==
 * [[Computing philosophy]]
 === Linux ===
 * [[The Linux System]]
 * [[My system]]
-* [[Git]]
 === Proglang ===
 * [[Bash]]
-
-== Stoicyzm ==
-* [[Rozmyślania]]
-
-== Ekonomia ==
+=== Software ===
+* [[Git]]

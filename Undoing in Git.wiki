@@ -1,0 +1,17 @@
+= Undoing stuff in Git =
+
+= FUCK THE BOOK AUTHOR HE TOLD ME LATER TO USE GIT RESTORE =
+
+== Add to commit ==
+If, after committing, you want to make additional changes and/or change the commit message
+1. Make the changes, stage files etc.
+2. Type `git commit --amend` and enter the new message.
+
+The old commit is then *completely replaced*, as if it never existed.
+Remember to *never amend commits pushed to remotes*.
+
+== Unstage a file ==
+Type `git reset HEAD /path/to/file`.
+
+== Unmodifying a file ==
+Type `git checkout -- /path/to/file`.

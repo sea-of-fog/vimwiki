@@ -1,0 +1,13 @@
+= Git tags =
+
+Tags are descriptions to specific moments in repo history.
+There are two kinds of tags, and the annotated tags should be preferred.
+
+== Lightweight tags ==
+Can be described as a "static branch".
+Lightweight tags generally just denote specific commits.
+
+== Annotatted tags ==
+Annotated tags are stored in the Git DB. They contain the identity of the commiter, the commit date, a message and may be signed with GPG.
+
+For managing tags, see [[git tag]].

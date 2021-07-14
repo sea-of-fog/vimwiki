@@ -1,0 +1,11 @@
+= git restore =
+
+The command used for undoing stuff.
+
+== Unstage a file ==
+Type `git restore --staged <file>`.
+
+== Unmodify  a file ==
+Type `git restore <file>`.
+*Caution! This removes any changes made after the last commit!*
+*This cannot be undone!*

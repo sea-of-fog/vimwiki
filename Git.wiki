@@ -10,6 +10,9 @@ This is the index page for Git/Github notes.
 [[Git config options]]
 [[Getting a repo]]
 [[Git files]]
+[[Git tags]]
+[[Undoing in Git]]
+[[Remotes]]
 
 == Verbs ==
 TODO: turn into a table
@@ -18,9 +21,11 @@ TODO: turn into a table
 [[git diff]]
 [[git add]]
 [[git rm]]
-[[git commit]]
 [[git mv]]
+[[git restore]]
+[[git commit]]
 [[the .gitignore file]]
+[[git tag]]
 
 == Sources ==
 1. https://git-scm.com/book/en/v2 (available locally)

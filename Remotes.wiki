@@ -1,0 +1,6 @@
+= Git remotes =
+
+Remote repositories are repos hosted somewhere else than the CWD. 
+*It can be on the same host machine, though more often one will work with projects hosted somewhere on the internet.*
+
+

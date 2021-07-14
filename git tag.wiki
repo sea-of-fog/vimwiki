@@ -1,0 +1,11 @@
+= git tag =
+
+Git allows tagging moments in the repo's history, for example releases.
+
+== Viewing tags ==
+Type `git tag`, `git tag --list` or `git tag -l` to list all tags.
+After `git tag -l/--list`, a list of patterns can be specified. Then, only tags matching at least one pattern will be shown. 
+For info on tags, see [[Git tags]].
+To show info on a specific tag, see [[git show]].
+
+== Adding tags ==

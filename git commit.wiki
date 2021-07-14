@@ -10,3 +10,6 @@ To specify on the command line, type:
 The _staging area_ can be skipped by using:
 `git commit -a`
 This command stages and commits all modified files.
+
+== Redoing a commit ==
+See [[Undoing in Git#Add to commit]]
